@@ -50,7 +50,7 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 
-  /// For large screens
+  /// Para telas grandes
   Widget _buildLargeScreen(
     Size size,
     SimpleUIController simpleUIController,
@@ -81,7 +81,7 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 
-  /// For Small screens
+  /// Para telas pequenas
   Widget _buildSmallScreen(
     Size size,
     SimpleUIController simpleUIController,
@@ -94,7 +94,7 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 
-  /// Main Body
+  ///Body
   Widget _buildMainBody(
     Size size,
     SimpleUIController simpleUIController,
