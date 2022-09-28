@@ -187,7 +187,7 @@ class _SignUpViewState extends State<SignUpView> {
                   height: size.height * 0.02,
                 ),
 
-                /// CampoSenha
+                /// Campo de Senha
                 Obx(
                   () => TextFormField(
                     style: kTextFormFieldStyle(),
@@ -235,7 +235,7 @@ class _SignUpViewState extends State<SignUpView> {
                   height: size.height * 0.02,
                 ),
 
-                /// SignUp Button
+                /// Botao Login
                 signUpButton(theme),
                 SizedBox(
                   height: size.height * 0.03,
@@ -275,7 +275,7 @@ class _SignUpViewState extends State<SignUpView> {
     );
   }
 
-  // SignUp Button
+  // Botao Cadastro
   Widget signUpButton(ThemeData theme) {
     return SizedBox(
       width: double.infinity,
